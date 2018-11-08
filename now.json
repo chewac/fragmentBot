@@ -3,7 +3,7 @@
   "type": "npm",
   "name": "fragment-bot",
   "builds": [
-    { "src": "index.js", "use": "@now/node" }
+    { "src": "index.js", "use": "@now/node-server" }
   ],
   "env": {
     "NODE_ENV": "production"
