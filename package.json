@@ -1,0 +1,16 @@
+{
+  "name": "pj-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Pj bot",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "engines": {
+    "node": "10.3.0"
+  }
+}
