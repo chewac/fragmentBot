@@ -1,6 +1,14 @@
 {
   "version": 2,
+  "type": "npm",
+  "name": "fragment-bot",
   "builds": [
     { "src": "index.js", "use": "@now/node" }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "github": {
+    "enabled": false
+  }  
 }
